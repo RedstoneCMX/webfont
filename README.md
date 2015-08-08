@@ -17,7 +17,7 @@ $youziku.load("#id1", "a58e925547144df997cf5125a36dd507", "minijianlinxin");
 $youziku.draw();
 </script>
 ```
-  "id1"、"id2"即为要应用字体效果的标签id名字；"class1"、"class2"即为要应用字体效果的标签class名字；粘贴后请自行替换为您页面上真实的标签id或class名字；同一页面上要引用多套字体，只需要将那套字体页面中的应用语句[$youziku.load("xxxxx","xxxxxxxxxxxxxxxxxx","xxxxxxxxxx");]设置在当前应用语句列表之后(．．．的位置)即可。不需要重复引用第一步中的JS文件和[$youziku.draw();]语句。
+    "id1"、"id2"即为要应用字体效果的标签id名字；"class1"、"class2"即为要应用字体效果的标签class名字；粘贴后请自行替换为您页面上真实的标签id或class名字；同一页面上要引用多套字体，只需要将那套字体页面中的应用语句[$youziku.load("xxxxx","xxxxxxxxxxxxxxxxxx","xxxxxxxxxx");]设置在当前应用语句列表之后(．．．的位置)即可。不需要重复引用第一步中的JS文件和[$youziku.draw();]语句。
 * 刷新。首次引用此JS代码，有字库需要为新内容生成相应的字体文件，这个过程一般不到一秒，为了保证您能得到好的效果，请您在5s之后刷新一下页面。若内容无变更，即可体验快速推送效果。
 
 ###第二种引用方式，css引用
