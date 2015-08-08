@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.title1{
+	text-align: center;
+}
+.content{
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
