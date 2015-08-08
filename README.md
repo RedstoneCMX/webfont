@@ -57,3 +57,7 @@ $youziku.draw();
 * 第二种引用方式效果
 
 ![页面效果](https://github.com/RedstoneCMX/webfont/blob/master/showimages/show3.png)
+
+##注
+测试时，直接双击打开html文件浏览是不能看到字体效果的，即url以“file”开头的，如：file:///E:/test.html。
+测试时，一定要通过本地建立的虚拟网站或发布到外网进行测试，如 http://localhost/test.html、http://127.0.0.1/test.html、http://www.youziku.com/demo/demo_css.htm
