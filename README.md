@@ -31,12 +31,12 @@ $youziku.draw();
 <div>调用方式<div class="cssb8a5d01058711647d3ea5d61c2c16d5e">
 ```
 * 之后是引用方式，分为两种。一种同步方式，一种异步方式。
-  * 同步方式（适合少量文本）
+  * 同步方式（适合少量文本）。
   将以下代码加到你网页的<head>标签之内。
   ```html
   <link href='http://www.youziku.com/webfont/CSS/b8a5d01058711647d3ea5d61c2c16d5e' rel='stylesheet' type='text/css'/>
   ```
-  * 异步加载方式（适用于大量文本）
+  * 异步加载方式（适用于大量文本）。
   将以下代码添加到您网页的</body>标签之后，</html>标签之前。
   ```html
   <script type="text/javascript" src="http://www.youziku.com/UserDownFile/webfont.js"></script> 
