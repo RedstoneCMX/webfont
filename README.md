@@ -17,24 +17,15 @@ $youziku.load("#id1", "a58e925547144df997cf5125a36dd507", "minijianlinxin");
 $youziku.draw();
 </script>
 ```
-"id1"、"id2"即为要应用字体效果的标签id名字；"class1"、"class2"即为要应用字体效果的标签class名字；粘贴后请自行替换为您页面上真实的标签id或class名字；同一页面上要引用多套字体，只需要将那套字体页面中的应用语句[$youziku.load("xxxxx","xxxxxxxxxxxxxxxxxx","xxxxxxxxxx");]设置在当前应用语句列表之后(．．．的位置)即可。不需要重复引用第一步中的JS文件和[$youziku.draw();]语句。
+  "id1"、"id2"即为要应用字体效果的标签id名字；"class1"、"class2"即为要应用字体效果的标签class名字；粘贴后请自行替换为您页面上真实的标签id或class名字；同一页面上要引用多套字体，只需要将那套字体页面中的应用语句[$youziku.load("xxxxx","xxxxxxxxxxxxxxxxxx","xxxxxxxxxx");]设置在当前应用语句列表之后(．．．的位置)即可。不需要重复引用第一步中的JS文件和[$youziku.draw();]语句。
 * 刷新。首次引用此JS代码，有字库需要为新内容生成相应的字体文件，这个过程一般不到一秒，为了保证您能得到好的效果，请您在5s之后刷新一下页面。若内容无变更，即可体验快速推送效果。
 
 ###第二种引用方式，css引用
 在有字库官网上还提供了一种引用方式，也就是针对特定字生成对应的css引用文件，这样避免了字体文件的全部引用和加载，对于少量使用特定字体的地方适合这样引用。这里使用德彪钢笔行书字体为例。
 * 在有字库官网css引用处输入需要使用德彪钢笔行书字体的字，比如：活着就是幸福。
 * 之后会生成对应的引用方式说明。
-* 在要使用该字体的标签属性中添加如下代码：
-<br/>
-```css
-font-family:LiDeBiao-Xing3397502;
-```
- 或调用class
-```html
-class="cssb8a5d01058711647d3ea5d61c2c16d5e"
-```
-
- 例如：
+* 在要使用该字体的标签属性中添加如下代码：font-family:LiDeBiao-Xing3397502;或调用class, class="cssb8a5d01058711647d3ea5d61c2c16d5e"
+例如：
 ```html
 <h1>调用方式<h1 style="font-family:LiDeBiao-Xing3397502;">
 <div>调用方式<div class="cssb8a5d01058711647d3ea5d61c2c16d5e">
